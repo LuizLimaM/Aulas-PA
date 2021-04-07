@@ -31,7 +31,7 @@ Inicio
    
    //Processamento
    
-   result <- (um*um)+(dois*dois)+(tres*tres)+(quatro*quatro)
+   result <- (um^2)+(dois^2)+(tres^2)+(quatro^2)
    
    //Saída
    
