@@ -1,9 +1,7 @@
-# logica_e_programacao
-EXERCICIOS DO SCRATCH
+# Lógica e Programação
 
-Variáveis e Operadores Aritméticos
-https://scratch.mit.edu/projects/498972995
-https://scratch.mit.edu/projects/502383484/
-https://scratch.mit.edu/projects/502435942/
-https://scratch.mit.edu/projects/502493860/
-Algoritmos do VisualG e Scratch
+*Operadores Lógicos e Relacionais
+
+*Variáveis e Operadores Aritméticos
+
+*Algoritmos do VisualG e [Scratch](https://scratch.mit.edu/users/LuizSL/)
