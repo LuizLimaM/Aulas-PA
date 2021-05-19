@@ -36,10 +36,6 @@ Inicio
 
    //Saída
    
-   escreval("SEU SALDO É DE:",result)
-   
-   escreval("")
-   
    escreval("SALDO POSITIVO:", positivo)
    
    escreval("")
