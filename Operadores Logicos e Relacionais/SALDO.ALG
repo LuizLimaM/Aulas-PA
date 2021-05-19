@@ -29,12 +29,16 @@ Inicio
    
    result <- (saldo-vinicial)
    
-   positivo <- (result>0)
+   positivo <- (result>=0)
    
    negativo <- (result<0)
 
 
    //Saída
+   
+   escreval("SEU SALDO É DE:",result)
+   
+   escreval("")
    
    escreval("SALDO POSITIVO:", positivo)
    
