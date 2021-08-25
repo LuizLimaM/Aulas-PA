@@ -1,7 +1,7 @@
-Algoritmo "Exercicio_2"
-//FuÁ„o: Pedir um numero ao usu·rio e informar se È primo, caso n„o for
-//mostrar por quais numeros È divisÌvel.
-// Disciplina   : ProgramaÁ„o e Algoritmos
+Algoritmo "Exercicio_12"
+//Fu√ß√£o: Pedir um numero ao usu√°rio e informar se √© primo, caso n√£o for
+//mostrar por quais numeros √© divis√≠vel.
+// Disciplina   : Programa√ß√£o e Algoritmos
 // Professora   : Cintia Maria de Araujo Pinho
 // Autor(a)     : Luiz Henrique da Silva Lima
 
@@ -9,7 +9,7 @@ Var
 num, cont, prim, divi: inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
 prim <- 0
 
@@ -23,10 +23,10 @@ para cont de 1 ate num faca
 fimpara
 se (prim = 2) entao
    escreval
-   escreval("O n˙mero escolhido È primo")
+   escreval("O n√∫mero escolhido √© primo")
 senao
      escreval
-      escreval("O numero escolhido n„o È primo, sendo divisivel por: ")
+      escreval("O numero escolhido n√£o √© primo, sendo divisivel por: ")
      para divi de 1 ate num faca
           se (num mod divi = 0) entao
              escreval(divi)
