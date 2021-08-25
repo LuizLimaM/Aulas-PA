@@ -1,7 +1,7 @@
 Algoritmo "Exercicio_4e5"
-// Função: Solicitar senha e conta de um banco e dar três chances do usuário responder corretamente
-// Após isso, fornecer quatro opções de interação para o usuário.
-// Disciplina   : Programação e Algoritmos
+// FunÃ§Ã£o: Solicitar senha e conta de um banco e dar trÃªs chances do usuÃ¡rio responder corretamente
+// ApÃ³s isso, fornecer quatro opÃ§Ãµes de interaÃ§Ã£o para o usuÃ¡rio.
+// Disciplina   : ProgramaÃ§Ã£o e Algoritmos
 // Professora   : Cintia Maria de Araujo Pinho
 // Autor(a)     : Luiz Henrique da Silva Lima
 Var
@@ -10,19 +10,13 @@ saldo, sacar, depositar, result: real
 cont,senha:real
 conta:caracter
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 saldo <- 5004
 
-//Conta = John
-//Senha = 54321
-
-
-//Login
-
 repita
 cont<-cont+1
-escreval("Digite o nome de Usuário")
+escreval("Digite o nome de UsuÃ¡rio")
 leia(conta)
 escreval("Digite sua senha")
 leia(senha)
@@ -32,7 +26,7 @@ se (conta = "Davie") e (senha = 504) entao
    escreval("Acesso Permitido! :)")
 senao
    se(cont > 2)entao
-      escreval("Você perdeu suas tentativas, volte mais tarde... :(")
+      escreval("VocÃª perdeu suas tentativas, volte mais tarde... :(")
    senao
       escreval("Acesso Negado! >:(")
       escreval
@@ -42,12 +36,12 @@ fimse
 ate((conta = "Davie") e (senha = 504)) ou (cont > 2)
 
 
-//Opções
+//OpÃ§Ãµes
 
 se(conta = "Davie") e (senha = 504) entao
    enquanto (opc <> 4) faca
        escreval
-       escreval("Escolha uma das opções: (1)Saque, (2)Depósito, (3)Saldo, (4)Sair")
+       escreval("Escolha uma das opÃ§Ãµes: (1)Saque, (2)DepÃ³sito, (3)Saldo, (4)Sair")
        leia(opc)
        escolha opc
           caso 1
@@ -58,12 +52,12 @@ se(conta = "Davie") e (senha = 504) entao
 
                 result <- (saldo - sacar)
 
-                escreval("Seu saldo agora é de R$", result)
+                escreval("Seu saldo agora Ã© de R$", result)
 
                 se (result >= 0)entao
-                   escreval("Seu saldo está positivo! :)")
+                   escreval("Seu saldo estÃ¡ positivo! :)")
                 senao
-                   escreval("Seu saldo está negativo! :(")
+                   escreval("Seu saldo estÃ¡ negativo! :(")
                 fimse
           caso 2
              escreval
@@ -79,7 +73,7 @@ se(conta = "Davie") e (senha = 504) entao
           outrocaso
              se (opc <> 4) entao
                 escreval
-                escreval ("Escolha somente entre as opções listadas! >:(")
+                escreval ("Escolha somente entre as opÃ§Ãµes listadas! >:(")
              fimse
 
        fimescolha
