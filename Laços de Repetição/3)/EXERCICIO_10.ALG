@@ -1,6 +1,6 @@
-Algoritmo "EXE10"
-// Função: informar o fatorial de um numero escolhido pelo usuário.
-// Disciplina   : Programação e Algoritmos
+Algoritmo "Exercicio_10"
+// FunÃ§Ã£o: informar o fatorial de um numero escolhido pelo usuÃ¡rio.
+// Disciplina   : ProgramaÃ§Ã£o e Algoritmos
 // Professora   : Cintia Maria de Araujo Pinho
 // Autor(a)     : Luiz Henrique da Silva Lima
 
@@ -20,6 +20,6 @@ para cont de num ate 1 passo -1 faca
 fimpara
 
 escreval
-escreval("Resultado: o fatorial do número escolhido:", num, ". É de", fatorial)
+escreval("Resultado: o fatorial do nÃºmero escolhido:", num, ". Ã‰ de", fatorial)
 
 Fimalgoritmo
